@@ -41,8 +41,10 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   row_index = 0
-  array = []
+  total = 0
   while row_index < src.length do
     if row_index[0] % 2 == 0 && row_index[1] % 2 == 0
-      array.push()
+      total += src[row_index][0] + src[row_index][1]
+    end
+  row_index += 1
 end
