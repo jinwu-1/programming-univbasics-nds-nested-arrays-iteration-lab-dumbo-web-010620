@@ -40,4 +40,9 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  row_index = 0
+  array = []
+  while row_index < src.length do
+    if row_index[0] % 2 == 0 && row_index[1] % 2 == 0
+      array.push()
 end
